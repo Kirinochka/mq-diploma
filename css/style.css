@@ -2,18 +2,18 @@
   font-weight: 400;
   font-family: "Open Sans";
   font-style: normal;
-  src: url(/fonts/OpenSans-Regular.woff2) format('woff2'),
-    url(/fonts/OpenSans-Regular.woff) format('woff'),
-    url(/fonts/OpenSans-Regular.ttf) format('truetype');
+  src: url(fonts/OpenSans-Regular.woff2) format('woff2'),
+    url(fonts/OpenSans-Regular.woff) format('woff'),
+    url(fonts/OpenSans-Regular.ttf) format('truetype');
   ;
 }
 @font-face {
   font-weight: 700;
   font-family: "Open Sans";
   font-style: normal;
-  src: url(/fonts/OpenSans-Bold.woff2) format('woff2'),
-    url(/fonts/OpenSans-Bold.woff) format('woff'),
-    url(/fonts/OpenSans-Bold.ttf) format('truetype');
+  src: url(fonts/OpenSans-Bold.woff2) format('woff2'),
+    url(fonts/OpenSans-Bold.woff) format('woff'),
+    url(fonts/OpenSans-Bold.ttf) format('truetype');
 }
 
 * {
@@ -42,7 +42,7 @@ body {
   padding-bottom: 130px;
   color: #fff;
   background: center / cover no-repeat
-    url(/images/banner-bg.jpg);
+    url(images/banner-bg.jpg);
 }
 
 @media (min-width: 641px) and (max-width: 1200px) {
@@ -50,7 +50,7 @@ body {
     padding-top: 50px;
     padding-bottom: 120px;
     background: center / cover no-repeat 
-      url(/images/banner-bg-tablet.jpg);
+      url(images/banner-bg-tablet.jpg);
   }
 }
 
@@ -59,7 +59,7 @@ body {
     padding-top: 230px;
     padding-bottom: 215px;
     background: center / cover no-repeat 
-      url(/images/banner-mobile.jpg);
+      url(images/banner-mobile.jpg);
   }
 }
 
@@ -627,7 +627,7 @@ body {
 
 .search-button {
   width: 48px;
-  background-image: url(/svg/search.svg);
+  background-image: url(svg/search.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 18px;
@@ -831,26 +831,26 @@ body {
 
 .socials-link-pinterest {
   background: center / contain no-repeat
-    url(/svg/001-pinterest.svg);
+    url(svg/001-pinterest.svg);
 }
 
 .socials-link-facebook {
   background: center / contain no-repeat
-    url(/svg/002-facebook-logo.svg);
+    url(svg/002-facebook-logo.svg);
 }
 .socials-link-tumblr {
   background: center / contain no-repeat
-    url(/svg/003-tumblr.svg);
+    url(svg/003-tumblr.svg);
 }
 
 .socials-link-twitter {
   background: center / contain no-repeat
-    url(/svg/004-twitter.svg);
+    url(svg/004-twitter.svg);
 }
 
 .socials-link-instagram {
   background: center / contain no-repeat
-    url(/svg/005-instagram.svg);
+    url(svg/005-instagram.svg);
 }
 
 .copyright {
@@ -903,7 +903,7 @@ body {
   height: 25px;
   border: 0;
   cursor: pointer;
-  background: url(/svg/form-x.svg) no-repeat;
+  background: url(svg/form-x.svg) no-repeat;
 }
 
 .popup-form {
@@ -928,7 +928,7 @@ body {
 .popup-select {
   appearance: none;
   width: 100%;
-  background-image: url(/svg/form-arrows.svg);
+  background-image: url(svg/form-arrows.svg);
   background-repeat: no-repeat;
   background-size: 10px;
   background-position: 95% center;
@@ -983,13 +983,13 @@ body {
   left: 0;
   width: 25px;
   height: 25px;
-  background-image: url(/svg/form-empty-circle.svg);
+  background-image: url(svg/form-empty-circle.svg);
   background-repeat: no-repeat;
   background-size: 25px;
 }
 
 .radio-input:checked + .radio-button {
-  background-image: url(/svg/form-circle.svg);
+  background-image: url(svg/form-circle.svg);
   background-repeat: no-repeat;
   background-size: 25px;
 }
