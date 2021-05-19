@@ -831,26 +831,26 @@ body {
 
 .socials-link-pinterest {
   background: center / contain no-repeat
-    url(../svg/001-pinterest.svg);
+    url('../svg/001-pinterest.svg');
 }
 
 .socials-link-facebook {
   background: center / contain no-repeat
-    url(../svg/002-facebook-logo.svg);
+    url('../svg/002-facebook-logo.svg');
 }
 .socials-link-tumblr {
   background: center / contain no-repeat
-    url(../svg/003-tumblr.svg);
+    url('../svg/003-tumblr.svg');
 }
 
 .socials-link-twitter {
   background: center / contain no-repeat
-    url(../svg/004-twitter.svg);
+    url('../svg/004-twitter.svg');
 }
 
 .socials-link-instagram {
   background: center / contain no-repeat
-    url(../svg/005-instagram.svg);
+    url('../svg/005-instagram.svg');
 }
 
 .copyright {
