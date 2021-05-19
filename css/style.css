@@ -42,7 +42,7 @@ body {
   padding-bottom: 130px;
   color: #fff;
   background: center / cover no-repeat
-    url('images/banner-bg.jpg');
+    url('./images/banner-bg.jpg');
 }
 
 @media (min-width: 641px) and (max-width: 1200px) {
